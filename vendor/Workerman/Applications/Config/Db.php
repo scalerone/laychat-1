@@ -18,7 +18,7 @@ class Db
         'port'    => 3306,
         'user'    => 'root',
         'password' => 'root',
-        'dbname'  => 'snake',
+        'dbname'  => 'laychat',
         'charset'    => 'utf8'
     );
 }
