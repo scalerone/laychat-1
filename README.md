@@ -1,16 +1,20 @@
 # 补充使用说明-2017.09.08
-使用back文件夹下最新的laychat.sql请建立数据库，并导入。
-此程序配置的是win版的workerman，使用说明参加这里http://www.workerman.net/workerman-chat
-本机使用时：
+- 使用back文件夹下最新的laychat.sql请建立数据库，并导入。
+- 此程序配置的是win版的workerman，使用说明参
+[这里](http://www.workerman.net/workerman-chat)
+- 本机使用时：
 在vendor/Workerman/Applications目录下，按住Shift键，鼠标右键点开cmd窗口
-输入php start_register.php start_gateway.php start_businessworker.php
-使用两个浏览器，登录不同的前台帐号就可以愉快的聊天了
+输入    
+```
+php start_register.php start_gateway.php start_businessworker.php 
+```
+  使用两个浏览器，登录不同的前台帐号就可以愉快的聊天了
 
-后台地址：http://域名/admin
-帐号/密码：admin/admin
-前台登录
-帐号/密码：马云/123456
-帐号/密码：纸飞机/123456
+   后台地址：http://域名/admin  
+   帐号/密码：admin/admin
+   前台登录   
+   帐号/密码：马云/123456   
+   帐号/密码：纸飞机/123456    
 
 # laychat-2017.07.20
 layIM+workerman+thinkphp5的webIM即时通讯系统 v2.0正式版  
